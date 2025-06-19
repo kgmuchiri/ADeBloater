@@ -1,6 +1,6 @@
 # Android DBloater
 
-A script application to debloat your Android Device
+A shell script to debloat your Android Device
 
 Sometimes android devices come with some bloat. While some applications can be hidden, I think it's better to have the option of uninstaling the OEM applications, but by default the most you can do is disable or hide them.
 
