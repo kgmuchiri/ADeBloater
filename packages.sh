@@ -32,6 +32,9 @@ PKG_GOOGLE_APPS=(
     com.google.android.gm
     com.google.android.apps.docs
     com.google.android.apps.maps
+    com.google.android.projection.gearhead
+    com.android.chrome
+    com.sec.android.app.chromecustomizations
 )
 
 #Facebook
