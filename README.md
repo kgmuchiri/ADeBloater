@@ -35,7 +35,7 @@ To execute just enter this command:
 
     ./run.sh
 
-### Finding package names for applicatinos
+### Finding package names for applications
 
 In the bloat-registry directory you will find a list of applications and their package names. Right now it is limited to Samsung as that is the device that this was tested out on.
 
