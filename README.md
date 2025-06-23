@@ -51,7 +51,7 @@ To get all the packages run:
 
     ./get-packages.sh
 
-To get packages with a specific word e.g. 'google", run:
+To get packages with a specific word e.g. "google", run:
 
     ./get-packages.sh google
 
