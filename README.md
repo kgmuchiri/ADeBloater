@@ -55,6 +55,6 @@ To get packages with a specific word e.g. "google", run:
 
     ./get-packages.sh google
 
-The files will show up in the device-packages-list and print in the terminal. 
+The files will show up in the device-packages-list directory and print in the terminal. 
 
 

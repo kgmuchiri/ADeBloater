@@ -16,10 +16,10 @@ fi
 
 # Get list of packages
 if [ -z "$1" ]; then
-    echo "📦 Fetching all packages..."
+    echo "  Fetching all packages..."
     adb shell pm list packages | tee "$RAW_FILE"
 else
-    echo "📦 Fetching packages matching '$1'..."
+    echo " Fetching packages matching '$1'..."
     adb shell pm list packages | grep "$1" | tee "$RAW_FILE"
 fi
 
@@ -29,6 +29,5 @@ sed 's/^package://' "$RAW_FILE" > "$CLEANED_FILE"
 rm "$RAW_FILE"
 mv "$CLEANED_FILE" ./device-package-list/
 
-echo "✅ Done. Cleaned packages saved to $CLEANED_FILE"
 
 
